@@ -6,6 +6,10 @@ This file contains an overview of the plan I have and the projects that will be 
 All projects done will be managed under this Repository link provided:<br />
 https://github.com/Bom929/CMPG323-Overview---32368984
 
+## GitHub Kanban Project
+The link for the Kanban views:<br />
+https://github.com/users/Bom929/projects/1
+
 ## Branching Strategy
 A GitHub Flow Branching strategy will be empleyed throughout the projects done in this semester that will be developed.
 

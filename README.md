@@ -18,6 +18,8 @@ The charts can be found at the following links:
 
 ## Branching Strategy
 A GitHub Flow Branching strategy will be empleyed throughout the projects done in this semester that will be developed.
+![image](https://user-images.githubusercontent.com/88659722/185343865-62a0e46b-393a-4b85-9228-71cc7f2803dd.png)
+
 
 The Following Guidelines Apply:<br />
 * A Main Primery branch where all code will be branching off. This will be the Main Branch.<br />

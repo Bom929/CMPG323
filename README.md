@@ -10,13 +10,19 @@ https://github.com/Bom929/CMPG323-Overview---32368984
 The link for the Kanban views:<br />
 https://github.com/users/Bom929/projects/1
 
+The charts can be found at the following links:
+* Number of Items by Label: https://github.com/users/Bom929/projects/1/insights/1
+* Number of Items by Status: https://github.com/users/Bom929/projects/1/insights/2
+* Number of Items by Sprint: https://github.com/users/Bom929/projects/1/insights/3
+* Burndown Chart: https://github.com/users/Bom929/projects/1/insights/4
+
 ## Branching Strategy
 A GitHub Flow Branching strategy will be empleyed throughout the projects done in this semester that will be developed.
 
 The Following Guidelines Apply:<br />
-[.] A Main Primery branch where all code will be branching off. This will be the Main Branch.<br />
-[.] New Branches will have to be created for buggy code and features that is developed.<br />
-[.] When code is reviewed and approved it will then be merged and then committed to the main branch.<br />
+* A Main Primery branch where all code will be branching off. This will be the Main Branch.<br />
+* New Branches will have to be created for buggy code and features that is developed.<br />
+* When code is reviewed and approved it will then be merged and then committed to the main branch.<br />
 
 ## GitIgnore File
 To be able to keep certainn information confedential this file will help with ignoring certain files when commiting to the project repositories on GitHub.

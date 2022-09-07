@@ -28,12 +28,15 @@ namespace Project2_32368984
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+            services.AddSwaggerGen();
+            //services.AddSwaggerGen(options => { options.SwaggerDoc("v2", new Microsoft.OpenApi.Models.OpenApiInfo { Title = "MyTest Demo API", Version = "v2", Description = "Test demo for students", }); });
+            services.AddDbContext<Project2_32368984.Models._32368984dbdevContext>(options => options.UseSqlServer("name=ConnectionStrings:DefaultConnection"));
             services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer("name=ConnectionStrings:ConnStr"));
 
             services.AddSwaggerGen(c => {
                 c.SwaggerDoc("v2", new OpenApiInfo
                 {
-                    Title = "JWTToken_Auth_API",
+                    Title = "Project2 32368984",
                     Version = "v2"
                 });
                 c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme()

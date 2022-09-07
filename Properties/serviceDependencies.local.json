@@ -3,6 +3,10 @@
     "apis1": {
       "ignored": "True",
       "type": "apis"
+    },
+    "mssql2": {
+      "type": "mssql.local",
+      "connectionId": "ConnectionStrings:Project2_32368984Context"
     }
   }
 }

@@ -11,6 +11,7 @@ using Project2_32368984.Authentication;
 using System.Text;
 using Microsoft.OpenApi;
 using Microsoft.OpenApi.Models;
+using Project2_32368984.Data;
 
 
 namespace Project2_32368984
@@ -92,6 +93,9 @@ namespace Project2_32368984
                     IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(Configuration["JWT:Secret"]))
                 };
             });
+
+            services.AddDbContext<Project2_32368984Context>(options =>
+                    options.UseSqlServer(Configuration.GetConnectionString("Project2_32368984Context")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.  

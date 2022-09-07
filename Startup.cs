@@ -21,7 +21,7 @@ namespace Project2_32368984
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
-            services.AddDbContext<_32368984dbdevContext>(options => options.UseSqlServer("name=ConnectionStrings:DefaultConnection"));
+            IServiceCollection serviceCollection = services.AddDbContext<_32368984dbdevContext>(options => options.UseSqlServer("name=ConnectionStrings:DefaultConnection"));
             services.AddSwaggerGen(options => { options.SwaggerDoc("v2", new Microsoft.OpenApi.Models.OpenApiInfo { Title = "Project 2 32368984", Version = "v2", Description = "My Project 2", }); });
         }
 

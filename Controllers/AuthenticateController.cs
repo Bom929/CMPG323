@@ -12,7 +12,7 @@ using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace JWTAuthentication.Controllers
+namespace Project2_32368984.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]

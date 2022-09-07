@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "apis1": {
+      "apiEndpoint": "https://apim-32368984-project2.azure-api.net/",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.ApiManagement/service/apim-32368984-Project2/apis/connectedoffice",
+      "type": "apis.azure"
+    },
+    "mssql1": {
+      "secretStore": "AzureAppSettings",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/kevin-peter-naude-32368984/databases/32368984db-dev",
+      "type": "mssql.azure",
+      "connectionId": "ConnectionStrings:ConnStr",
+      "dynamicId": null
+    }
+  }
+}
